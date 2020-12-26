@@ -1,14 +1,10 @@
 import React from "react"
-import {
-  MainContainer,
-  CenteredContainer,
-  MainTitle,
-  MainLogo,
-} from "../styles/index.js"
+import { MainContainer } from "../styles/index.js"
 import { Helmet } from "react-helmet"
-import logoSrc from "../../static/logo-blue.svg"
 import { MainDescription, PrimaryTitle } from "../constants/text.js"
 import logo from "../../static/favicon.png"
+import Splash from "../components/Splash/Splash.jsx"
+import About from "../components/About/About.jsx"
 
 export default function Home() {
   return (
@@ -25,15 +21,16 @@ export default function Home() {
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://needforspeedrobotics.org" />
+        <meta
+          property="twitter:url"
+          content="https://needforspeedrobotics.org"
+        />
         <meta property="twitter:title" content={PrimaryTitle} />
         <meta property="twitter:description" content={MainDescription} />
         <meta property="twitter:image" content={logo} />
       </Helmet>
-      <CenteredContainer>
-        <MainLogo src={logoSrc} />
-        <MainTitle>Coming Soon</MainTitle>
-      </CenteredContainer>
+      <Splash />
+      <About/>
     </MainContainer>
   )
 }
