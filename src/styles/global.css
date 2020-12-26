@@ -1,5 +1,11 @@
 @font-face {
   font-family: "Pier Sans";
+  font-weight: 300;
+  src: local("PierSans-Light"), url("/src/fonts/PierSans-Light.otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pier Sans";
   font-weight: 400;
   src: local("PierSans-Regular"), url("/src/fonts/PierSans-Regular.otf");
   font-display: swap;
@@ -10,6 +16,7 @@
   src: local("PierSans-Bold"), url("/src/fonts/PierSans-Bold.otf");
   font-display: swap;
 }
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap");
 html,
 body,
 div,
