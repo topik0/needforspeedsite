@@ -10,7 +10,6 @@ import {
   LogoCaption,
 } from "../About/About.js"
 import { AboutBio, LogoComment } from "../../constants/text"
-import waves from "../../../static/blue-waves-4.svg"
 import logoWhite from "../../../static/logo-white.svg"
 import BulletPoint from "../BulletPoint/BulletPoint.jsx"
 import { bulletpoints } from "../../constants/bulletpoints"

@@ -5,8 +5,10 @@ import { MainDescription, PrimaryTitle } from "../constants/text.js"
 import logo from "../../static/favicon.png"
 import Splash from "../components/Splash/Splash.jsx"
 import About from "../components/About/About.jsx"
+import MeetTheTeam from "../components/MeetTheTeam/MeetTheTeam.jsx"
 
-export default function Home() {
+
+export default () => {
   return (
     <MainContainer>
       <Helmet>
@@ -30,7 +32,8 @@ export default function Home() {
         <meta property="twitter:image" content={logo} />
       </Helmet>
       <Splash />
-      <About/>
+      <About />
+      <MeetTheTeam/>
     </MainContainer>
   )
 }

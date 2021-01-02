@@ -10,10 +10,10 @@ class MeetTheTeam extends Component {
   render() {
     return (
       <BulletContainer>
-        <Circle />
+        
         <Content>{this.props.content}</Content>
       </BulletContainer>
     )
   }
 }
-export default BulletPoint
+export default MeetTheTeam
