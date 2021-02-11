@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
-import logo from "../../images/favicon.png"
 
 const SEO = ({ title, description, image, article }) => {
   const { pathname } = useLocation()
@@ -28,7 +27,7 @@ const SEO = ({ title, description, image, article }) => {
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
-      <meta name="image" content={logo} />
+      <meta name="image" content={seo.image} />
       <meta name="theme-color" content="#190061" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
@@ -41,7 +40,7 @@ const SEO = ({ title, description, image, article }) => {
         <meta property="og:description" content={seo.description} />
       )}
 
-      {logo && <meta property="og:image" content={logo} />}
+      {seo.image && <meta property="og:image" content={seo.image} />}
 
       <meta name="twitter:card" content="summary_large_image" />
 
@@ -55,7 +54,7 @@ const SEO = ({ title, description, image, article }) => {
         <meta name="twitter:description" content={seo.description} />
       )}
 
-      {logo && <meta name="twitter:image" content={logo} />}
+      {seo.image && <meta name="twitter:image" content={seo.image} />}
     </Helmet>
   )
 }
