@@ -9,11 +9,17 @@ import MeetTheTeam from "../components/MeetTheTeam"
 import BlueBlob from "../components/BlueBlob"
 import CTABlobs from "../components/CTABlobs"
 import Footer from "../components/Footer/index.jsx"
+import SEO from "../components/SEO/seo.jsx"
 
 export default () => {
   return (
     <MainContainer>
-      <Helmet>
+      <SEO
+        title="Need For Speed Robotics"
+        description={MainDescription}
+        image={logo}
+      />
+      {/* <Helmet>
         <title>Need For Speed Robotics</title>
         <meta name="description" content={MainDescription} />
         <meta name="theme-color" content="#190061" />
@@ -32,7 +38,7 @@ export default () => {
         <meta property="twitter:title" content={PrimaryTitle} />
         <meta property="twitter:description" content={MainDescription} />
         <meta property="twitter:image" content={logo} />
-      </Helmet>
+      </Helmet> */}
       <Splash />
       <About />
       <BlueBlob id="meettheteam" width="80%" showText={"Meet The Team"} />

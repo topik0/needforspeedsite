@@ -14,11 +14,12 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Need For Speed Robotics",
+    defaultTitle: "Need For Speed Robotics",
     titleTemplate: "%s - Need For Speed Robotics",
     description:
       "We are Need For Speed, the FTC robotics team from Lake Forest, Illinois",
     url: "https://www.needforspeedrobotics.org",
     image: "src/images/favicon.png",
+    twitterUsername: "team9113"
   },
 }

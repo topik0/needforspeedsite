@@ -2,7 +2,7 @@
   "name": "need-for-speed",
   "private": true,
   "description": "The official website for Need For Speed Robotics",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
