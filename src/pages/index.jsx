@@ -17,7 +17,7 @@ export default () => {
       <SEO
         title="Need For Speed Robotics"
         description={MainDescription}
-        image={logo}
+        image={`https://www.needforspeedsite.vercel.app${logo}`}
       />
       <Splash />
       <About />
