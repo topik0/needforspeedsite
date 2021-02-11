@@ -1,3 +1,5 @@
+import logo from "../images/favicon.png"
+
 module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -9,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: "src/images/favicon.png",
+        icon: `https://www.needforspeedsite.vercel.app${logo}`,
       },
     },
   ],
@@ -19,7 +21,7 @@ module.exports = {
     description:
       "We are Need For Speed, the FTC robotics team from Lake Forest, Illinois",
     url: "https://www.needforspeedrobotics.org",
-    image: "src/images/favicon.png",
-    twitterUsername: "team9113"
+    image: `https://www.needforspeedsite.vercel.app${logo}`,
+    twitterUsername: "team9113",
   },
 }
