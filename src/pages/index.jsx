@@ -1,18 +1,20 @@
 import React from "react"
-import { MainContainer } from "../styles/index.js"
+import { MainContainer, TextBlob } from "../styles/styles.js"
 import { Helmet } from "react-helmet"
 import { MainDescription, PrimaryTitle } from "../constants/text.js"
-import logo from "../../static/favicon.png"
-import Splash from "../components/Splash/Splash.jsx"
-import About from "../components/About/About.jsx"
-import MeetTheTeam from "../components/MeetTheTeam/MeetTheTeam.jsx"
-
+import logo from "../images/favicon.png"
+import Splash from "../components/Splash"
+import About from "../components/About"
+import MeetTheTeam from "../components/MeetTheTeam"
+import BlueBlob from "../components/BlueBlob"
+import CTABlobs from "../components/CTABlobs"
+import Footer from "../components/Footer/index.jsx"
 
 export default () => {
   return (
     <MainContainer>
       <Helmet>
-        <title>{PrimaryTitle}</title>
+        <title>Need For Speed Robotics</title>
         <meta name="description" content={MainDescription} />
         <meta name="theme-color" content="#190061" />
         <meta property="og:type" content="website" />
@@ -33,7 +35,17 @@ export default () => {
       </Helmet>
       <Splash />
       <About />
-      <MeetTheTeam/>
+      <BlueBlob id="meettheteam" width="80%" showText={"Meet The Team"} />
+      <MeetTheTeam />
+      <TextBlob>
+        <div>
+          <h1>
+            But wait, <br /> there's more!
+          </h1>
+        </div>
+      </TextBlob>
+      <CTABlobs />
+      <Footer />
     </MainContainer>
   )
 }
