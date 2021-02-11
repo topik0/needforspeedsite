@@ -10,7 +10,6 @@ import { sponsors } from "../constants/Sponsors"
 import { SponsorHolder } from "../styles/sponsors.js"
 import SEO from "../components/SEO/seo.jsx"
 
-
 export default () => {
   return (
     <MainContainer>
