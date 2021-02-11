@@ -9,7 +9,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: "./static/favicon.png",
+        icon: "src/images/favicon.png",
       },
     },
   ],
@@ -19,6 +19,6 @@ module.exports = {
     description:
       "We are Need For Speed, the FTC robotics team from Lake Forest, Illinois",
     url: "https://www.needforspeedrobotics.org",
-    image: "../../static/favicon.png",
+    image: "src/images/favicon.png",
   },
 }
