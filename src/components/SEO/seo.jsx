@@ -44,7 +44,6 @@ const SEO = ({ title, description, image, article, url }) => {
       <link
         href="https://i.imgur.com/DSeAtu7.png"
         rel="shortcut icon"
-        sizes="196x196"
       />
 
       {/* <meta property="og:image" content={"https://i.imgur.com/DSeAtu7.png"} /> */}
