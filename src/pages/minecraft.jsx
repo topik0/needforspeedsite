@@ -16,7 +16,7 @@ export default () => {
   return (
     <LostContainer>
       <SEO
-        title={`Minecraft Server ${PrimaryTitle}`}
+        title={`Minecraft Server${PrimaryTitle}`}
         description={`Play on the Need For Speed robotics Minecraft server`}
         image={logo}
       />

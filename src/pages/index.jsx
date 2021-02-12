@@ -14,11 +14,26 @@ import SEO from "../components/SEO/seo.jsx"
 export default () => {
   return (
     <MainContainer>
-      <SEO
-        title="Need For Speed Robotics"
-        description={MainDescription}
-        image={`https://i.imgur.com/DSeAtu7.png`}
-      />
+      <Helmet>
+        <title>Need For Speed Robotics</title>
+        <meta name="description" content={MainDescription} />
+        <meta name="theme-color" content="#190061" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://needforspeedrobotics.org" />
+        <meta property="og:title" content={PrimaryTitle} />
+        <meta property="og:description" content={MainDescription} />
+        <meta property="og:image" content={"https://i.imgur.com/DSeAtu7.png"} />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://needforspeedrobotics.org"
+        />
+        <meta property="twitter:title" content={PrimaryTitle} />
+        <meta property="twitter:description" content={MainDescription} />
+        <meta property="twitter:image" content={"https://i.imgur.com/DSeAtu7.png"} />
+      </Helmet>
       <Splash />
       <About />
       <BlueBlob id="meettheteam" width="80%" showText={"Meet The Team"} />

@@ -16,7 +16,7 @@ export default () => {
   return (
     <LostContainer>
       <SEO
-        title={`Coming Soon ${PrimaryTitle}`}
+        title={`Coming Soon${PrimaryTitle}`}
         description={`The page you are looking is not available yet`}
         image={logo}
       />
