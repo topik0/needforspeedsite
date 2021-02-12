@@ -27,7 +27,7 @@ const SEO = ({ title, description, image, article, url }) => {
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
-      <meta name="image" content={"https://i.imgur.com/DSeAtu7.png"} />
+      {/* <meta name="image" content={"https://i.imgur.com/DSeAtu7.png"} /> */}
       <meta name="theme-color" content="#190061" />
       <meta property="og:type" content="website" />
 
