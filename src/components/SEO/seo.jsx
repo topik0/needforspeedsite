@@ -41,12 +41,7 @@ const SEO = ({ title, description, image, article, url }) => {
         <meta property="og:description" content={seo.description} />
       )}
 
-      <link
-        href="https://i.imgur.com/DSeAtu7.png"
-        rel="shortcut icon"
-      />
-
-      {/* <meta property="og:image" content={"https://i.imgur.com/DSeAtu7.png"} /> */}
+      <meta property="og:image" content={"https://i.imgur.com/DSeAtu7.png"} />
 
       <meta name="twitter:card" content="summary_large_image" />
 
@@ -60,7 +55,7 @@ const SEO = ({ title, description, image, article, url }) => {
         <meta name="twitter:description" content={seo.description} />
       )}
 
-      {/* <meta name="twitter:image" content={"https://i.imgur.com/DSeAtu7.png"} /> */}
+      <meta name="twitter:image" content={"https://i.imgur.com/DSeAtu7.png"} />
     </Helmet>
   )
 }
