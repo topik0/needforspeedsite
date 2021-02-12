@@ -6,6 +6,7 @@ module.exports = {
     `gatsby-plugin-no-sourcemaps`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-open-graph-images`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
