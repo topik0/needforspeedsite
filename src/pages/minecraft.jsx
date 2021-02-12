@@ -15,11 +15,18 @@ import SEO from "../components/SEO/seo.jsx"
 export default () => {
   return (
     <LostContainer>
-      <SEO
+      <Helmet>
+        <title>Minecraft Server | Need For Speed Robotics</title>
+        <meta
+          name="description"
+          content="Play on the Need For Speed robotics Minecraft server"
+        />
+      </Helmet>
+      {/* <SEO
          title="Minecraft Server | "
         description={`Play on the Need For Speed robotics Minecraft server`}
         image={logo}
-      />
+      /> */}
       <Navbar center filled />
       <LostHolder>
         <LostTitle size="calc(2vmax + 3vmin)">
