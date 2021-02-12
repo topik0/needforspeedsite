@@ -32,8 +32,16 @@ export default () => {
         />
         <meta property="twitter:title" content={PrimaryTitle} />
         <meta property="twitter:description" content={MainDescription} />
-        <meta property="twitter:image" content={"https://i.imgur.com/DSeAtu7.png"} />
+        <meta
+          property="twitter:image"
+          content={"https://i.imgur.com/DSeAtu7.png"}
+        />
       </Helmet>
+      <SEO
+        title="Need For Speed Robotics"
+        description="We are Need For Speed, the FTC robotics team from Lake Forest, Illinois"
+        titleTemplate=""
+      />
       <Splash />
       <About />
       <BlueBlob id="meettheteam" width="80%" showText={"Meet The Team"} />

@@ -27,8 +27,9 @@ const SEO = ({ title, description, image, article, url }) => {
   return (
     <Helmet title={seo.title} titleTemplate={titleTemplate}>
       <meta name="description" content={seo.description} />
-      <meta name="image" content={seo.image} />
+      <meta name="image" content={"https://i.imgur.com/DSeAtu7.png"} />
       <meta name="theme-color" content="#190061" />
+      <meta property="og:type" content="website" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
@@ -40,7 +41,7 @@ const SEO = ({ title, description, image, article, url }) => {
         <meta property="og:description" content={seo.description} />
       )}
 
-      {seo.image && <meta property="og:image" content={seo.image} />}
+      <meta property="og:image" content={"https://i.imgur.com/DSeAtu7.png"} />
 
       <meta name="twitter:card" content="summary_large_image" />
 
@@ -54,7 +55,7 @@ const SEO = ({ title, description, image, article, url }) => {
         <meta name="twitter:description" content={seo.description} />
       )}
 
-      {seo.image && <meta name="twitter:image" content={seo.image} />}
+      <meta name="twitter:image" content={"https://i.imgur.com/DSeAtu7.png"} />
     </Helmet>
   )
 }
