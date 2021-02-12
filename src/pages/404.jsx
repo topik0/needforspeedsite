@@ -16,7 +16,7 @@ export default () => {
   return (
     <LostContainer>
       <SEO
-        title={`404${PrimaryTitle}`}
+         title="404 | "
         description={`The page you are looking for does not exist`}
         image={logo}
       />

@@ -38,9 +38,7 @@ export default () => {
         />
       </Helmet>
       <SEO
-        title="Need For Speed Robotics"
         description="We are Need For Speed, the FTC robotics team from Lake Forest, Illinois"
-        titleTemplate=""
       />
       <Splash />
       <About />

@@ -14,6 +14,7 @@ export default () => {
   return (
     <MainContainer>
       <SEO
+        title="Sponsorships | "
         description={`View our current sponsors and learn how to sponsor us`}
         image={logo}
       />
