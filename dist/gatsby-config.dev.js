@@ -12,7 +12,7 @@ module.exports = {
     titleTemplate: "%sNeed For Speed Robotics",
     description: "We are Need For Speed, the FTC robotics team from Lake Forest, Illinois",
     url: "https://www.needforspeedrobotics.org",
-    image: "https://i.imgur.com/DSeAtu7.png",
+    image: "src/images/meta-icons/favicon-96x96.png",
     twitterUsername: "team9113"
   }
 };
