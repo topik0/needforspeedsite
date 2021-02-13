@@ -60,7 +60,7 @@ export const MenuTextOne = [
 export const MenuTextTwo = [
   {
     text: "Branding",
-    url: "/branding",
+    url: "/soon",
   },
   {
     text: "Minecraft Server",
