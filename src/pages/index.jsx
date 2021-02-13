@@ -1,8 +1,5 @@
 import React from "react"
 import { MainContainer, TextBlob } from "../styles/styles.js"
-import { Helmet } from "react-helmet"
-import { MainDescription, PrimaryTitle } from "../constants/text.js"
-import logo from "../images/favicon.png"
 import Splash from "../components/Splash"
 import About from "../components/About"
 import MeetTheTeam from "../components/MeetTheTeam"
@@ -15,6 +12,7 @@ export default () => {
   return (
     <MainContainer>
       <SEO
+        title="Need For Speed Robotics"
         description="We are Need For Speed, the FTC robotics team from Lake Forest, Illinois"
       />
       <Splash />

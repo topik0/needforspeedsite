@@ -5,8 +5,6 @@ import {
   LostText,
   LostTitle,
 } from "../styles/404.js"
-import { Helmet } from "react-helmet"
-import { MainDescription, PrimaryTitle } from "../constants/text.js"
 import logo from "../images/favicon.png"
 import Navbar from "../components/Navbar/index.jsx"
 import Footer from "../components/Footer/index.jsx"
@@ -16,7 +14,7 @@ export default () => {
   return (
     <LostContainer>
       <SEO
-         title="404 | "
+         title="404 | Need For Speed Robotics"
         description={`The page you are looking for does not exist`}
         image={logo}
       />

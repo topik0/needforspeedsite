@@ -1,7 +1,6 @@
 import React from "react"
 import { MainContainer, TextBlob } from "../styles/styles.js"
-import { Helmet } from "react-helmet"
-import { MainDescription, PrimaryTitle, SponsorEmail } from "../constants/text.js"
+import { SponsorEmail } from "../constants/text.js"
 import logo from "../images/favicon.png"
 import Footer from "../components/Footer/index.jsx"
 import Navbar from "../components/Navbar/index.jsx"
@@ -14,7 +13,7 @@ export default () => {
   return (
     <MainContainer>
       <SEO
-        title="Sponsorships | "
+        title="Sponsorships | Need For Speed Robotics"
         description={`View our current sponsors and learn how to sponsor us`}
         image={logo}
       />
