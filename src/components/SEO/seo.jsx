@@ -43,7 +43,7 @@ const SEO = ({ title, description, image, article, url }) => {
         <meta property="og:description" content={seo.description} />
       )}
 
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
 
       {twitterUsername && (
         <meta name="twitter:creator" content={twitterUsername} />
