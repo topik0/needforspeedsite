@@ -9,6 +9,7 @@ export const CircleBlobContainer = styled.div`
   @media (max-width: 800px) {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: 8%;
   }
 `
 
