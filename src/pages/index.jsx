@@ -15,7 +15,7 @@ export default () => {
   return (
     <MainContainer>
       <SEO
-      title="Need For Speed Robotics"
+        title="Need For Speed Robotics"
         description="We are Need For Speed, the FTC robotics team from Lake Forest, Illinois"
       />
       <Splash />
