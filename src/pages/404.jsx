@@ -5,7 +5,7 @@ import {
   LostText,
   LostTitle,
 } from "../styles/404.js"
-import logo from "../images/favicon.png"
+import logo from "../../static/favicon.png"
 import Navbar from "../components/Navbar/index.jsx"
 import Footer from "../components/Footer/index.jsx"
 import SEO from "../components/SEO/seo.jsx"

@@ -1,7 +1,7 @@
 import React from "react"
 import { MainContainer, TextBlob } from "../styles/styles.js"
 import { SponsorEmail } from "../constants/text.js"
-import logo from "../images/favicon.png"
+import logo from "../../static/favicon.png"
 import Footer from "../components/Footer/index.jsx"
 import Navbar from "../components/Navbar/index.jsx"
 import SponsorComponent from "../components/SponsorComponent/index.jsx"
