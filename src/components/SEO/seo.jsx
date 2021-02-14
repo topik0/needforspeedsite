@@ -30,7 +30,7 @@ const SEO = ({ title, description, image, article }) => {
       <meta name="theme-color" content="#190061" />
       <meta property="og:type" content="website" />
 
-      <meta property="og:image" content={"/favicon.png"} />
+      <meta property="og:image" content={"/favicon-black.png"} />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 
