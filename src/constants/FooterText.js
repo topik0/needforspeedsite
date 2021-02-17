@@ -60,7 +60,8 @@ export const MenuTextOne = [
 export const MenuTextTwo = [
   {
     text: "Branding",
-    url: "/soon",
+    url: "https://drive.google.com/drive/folders/1wOwj9tSQkiVo6PKIsDc1O8eaZKhQvNKU",
+    external: true
   },
   {
     text: "Minecraft Server",

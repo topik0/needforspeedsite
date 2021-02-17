@@ -54,6 +54,7 @@ const MenuList = ({ title, content, contentTwo }) => {
                   key={elContent.text}
                   title={elContent.text}
                   href={elContent.url}
+                  bottomMargin
                 >
                   {elContent.text}
                 </ContentText>

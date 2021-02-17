@@ -54,6 +54,7 @@ export const ContentText = styled.a`
   font-size: 20px;
   text-decoration: none;
   ${(props) => props.size ? `font-size: ${props.size};` : ""}
+  ${(props) => props.bottomMargin ? "margin-bottom: 15px;" : ""}
 `
 
 export const ContentTextInternal = styled(Link)`
